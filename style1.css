@@ -1,0 +1,150 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+main{background: rgb(170,15,6);display: inline-block;width: 100%;}
+.right{
+  padding:30px 30px 10px 30px;
+  width: 74%;
+  background-color: rgb(206, 206, 206);
+  float: right;
+  /* display: table-cell; */
+}
+.right  h1{
+  display: inline-block;
+  padding: 10px 0px;
+  font-family: Arial;
+  /* float: left; */
+}
+.right p{
+  background-color:rgb(255, 255, 255);
+  padding:5px ;
+  border-radius: 10px;
+  margin: 2px auto;
+}
+#space{
+  margin: 0px 0px 30px 0px;
+}
+.right a:nth-child(1){
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  color:gray;
+/*  padding:40px 10px 40px 0px;*/
+    border-bottom: gray 1px solid ;
+    display: flex;
+}
+.right a:border{
+  border-bottom: gray 1px solid;
+}
+#resizing{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  float:right;
+  padding: 0px;
+  margin: 4px 0;
+}
+#floating{
+  float:right;
+}
+#posty{
+  color:blue;
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  padding: 0px;
+  border-bottom:none;
+  display: inline-block;
+}
+#under0{
+background-color: red;
+color:white;
+padding: 1px;
+margin: 0px 5px 0px 0px;
+}
+#under1{
+  background-color: yellow;
+  color:black;
+  padding: 1px;
+}
+#under2{
+  background-color: green;
+  color:white;
+  padding: 1px;
+}
+#under3{
+  background-color:blue ;
+  color:white;
+  padding: 1px;
+}
+#sizing{
+  width: 447px;
+  height: 300px;
+  display: inline-block;
+  padding:2px;
+  margin: 10px 10px;
+}
+.left{
+  position: fixed;
+  background-color: rgb(170,15,6);
+  padding: 170px 10px 10px 30px;
+  float:left;
+  width: 26%;
+  /* height: 100%; */
+  /* display: table-cell; */
+}
+.left  h1{
+  text-align: right;
+  padding:30px 10px 10px 0px;
+  font-family:cursive;
+  display: block;
+}
+.left-child{
+  text-align: right;
+  position: relative;
+  background-color: rgb(170,15,6);
+  color: white;
+  display: block;
+  padding:0px 10px 10px 30px;
+}
+.left-child p{
+font-family:serif;
+padding-bottom: 20px;
+}
+.left-child form input{
+  padding: 2px 2px;
+  font-weight: bold;
+}
+.left-child form input:hover {
+ background-color: blue;
+ cursor: pointer;
+}
+.foot{
+clear: both;
+text-align: center;
+padding:20px 0px 10px 0px;
+float: center;
+}
+nav ul{
+  list-style: none;
+  display: inline-block;
+}
+nav ul li {
+  line-height: 200px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+ text-indent: 20px;
+  text-align: center;
+  font-family: Arial;
+}
+nav li a{
+cursor: pointer;
+line-height: 30px;
+text-decoration: none;
+color:gray;
+display: inline-block;
+}
